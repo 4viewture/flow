@@ -1,10 +1,14 @@
 {
-    "name": "typo3/flow",
+    "name": "neos/flow",
     "type": "typo3-flow-framework",
     "description": "Flow Application Framework",
     "homepage": "http://flow.typo3.org",
     "license": ["MIT"],
 
+    "replace": {
+      "typo3/flow": "self.version"  
+    },
+    
     "require": {
         "php": ">=5.5.0",
 
